@@ -1,0 +1,219 @@
+@import "index.css";
+@import "footer.css";
+
+.contact{
+	font: 100px/1.5 "trebuchet ms";
+	color: white;
+}
+
+.con{
+	font: 30px/1.5 "trebuchet ms";
+	color: white;
+}
+
+.cover{
+	justify-content: center;
+	text-align: center;
+}
+
+.contact-details{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 20px;
+}
+
+.phone{
+	font: 30px/1.5 silom;
+	color: #19074A;
+	text-align: center;
+}
+
+#phone-info{
+	font: 20px/1.2 "trebuchet ms";
+	color: #292929;
+}
+
+.send-email{
+	display: inline-block;
+	background-color: #121212;
+	padding: 20px;
+	text-align: center;
+}
+
+.send-email:hover{
+	background-color: tomato;
+}
+
+.send-email a{
+	color: white;
+}
+
+
+@media (max-width: 341px){
+	.contact{
+		font: 30px/1.5 "trebuchet ms";
+	}
+
+	.con{
+		font: 8px/1.5 "trebuchet ms";
+	}
+
+	.phone{
+		font: 10px/1.5 silom;
+	}
+
+	#phone-info{
+		font: 8px/1.2 "trebuchet ms";
+	}
+
+	.send-email{
+		font-size: 10px;
+		padding: 10px;
+	}
+}
+
+@media (min-width: 342px) and (max-width: 480px){
+	.contact{
+		font: 35px/1.5 "trebuchet ms";
+	}
+
+	.con{
+		font: 10px/1.5 "trebuchet ms";
+	}
+
+	.phone{
+		font: 13px/1.5 silom;
+	}
+
+	#phone-info{
+		font: 10px/1.2 "trebuchet ms";
+	}
+
+	.send-email{
+		font-size: 10px;
+		padding: 10px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+	.contact{
+		font: 40px/1.5 "trebuchet ms";
+	}
+
+	.con{
+		font: 14px/1.5 "trebuchet ms";
+	}
+
+	.phone{
+		font: 16px/1.5 silom;
+	}
+
+	#phone-info{
+		font: 12px/1.2 "trebuchet ms";
+	}
+
+	.send-email{
+		font-size: 13px;
+		padding: 10px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait;){
+	.contact{
+		font: 70px/1.5 "trebuchet ms";
+	}
+
+	.con{
+	font: 20px/1.5 "trebuchet ms";
+	}
+
+	.phone{
+		font: 17px/1.5 silom;
+	}
+
+	#phone-info{
+	font: 13px/1.2 "trebuchet ms";
+	}
+
+	.send-email{
+		font-size: 15px;
+		padding: 10px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+	.contact{
+		font: 70px/1.5 "trebuchet ms";
+	}
+
+	.con{
+	font: 20px/1.5 "trebuchet ms";
+	}
+
+	.phone{
+		font: 17px/1.5 silom;
+	}
+
+	#phone-info{
+	font: 13px/1.2 "trebuchet ms";
+	}
+
+	.send-email{
+		font-size: 15px;
+		padding: 10px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+	.contact{
+		font: 70px/1.5 "trebuchet ms";
+	}
+
+	.con{
+	font: 20px/1.5 "trebuchet ms";
+	}
+
+	.phone{
+		font: 17px/1.5 silom;
+	}
+
+	#phone-info{
+	font: 13px/1.2 "trebuchet ms";
+	}
+
+	.send-email{
+		font-size: 15px;
+		padding: 10px;
+	}
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+	.contact{
+		font: 80px/1.5 "trebuchet ms";
+	}
+
+	.con{
+	font: 25px/1.5 "trebuchet ms";
+	}
+
+	.phone{
+		font: 23px/1.5 silom;
+	}
+
+	#phone-info{
+	font: 15px/1.2 "trebuchet ms";
+	}
+
+	.send-email{
+		font-size: 19px;
+		padding: 10px;
+	}
+
+}
+
+@media (min-width: 1281px){
+
+}
